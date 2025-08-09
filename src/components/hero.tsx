@@ -80,15 +80,15 @@ export default function Hero() {
               <strong>Helpful Links for Desktop App</strong>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link href={"/help"} onClick={() => setActiveSection("")}>
-                  PNG to PDF Converter software user guide
+                  TIFF to PDF Converter software user guide
                 </Link>
               </Button>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link
-                  href={"/how-to-convert-png-to-pdf"}
+                  href={"/batch-tiff-pdf-conversion"}
                   onClick={() => setActiveSection("")}
                 >
-                  How to convert PNG to PDF in batch?
+                  How to convert TIFF to PDF in batch?
                 </Link>
               </Button>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
@@ -96,7 +96,15 @@ export default function Hero() {
                   href={"/how-to-merge-png-to-pdf"}
                   onClick={() => setActiveSection("")}
                 >
-                  How to combine multiple PNG to PDF in Windows?
+                  How to combine multiple TIFF to PDF in Windows?
+                </Link>
+              </Button>
+              <Button asChild variant={"link"} className="h-auto px-0 py-0">
+                <Link
+                  href={"/how-to-split-tiff-into-pdf"}
+                  onClick={() => setActiveSection("")}
+                >
+                  How do I split TIFF into PDF file?
                 </Link>
               </Button>
             </div>
