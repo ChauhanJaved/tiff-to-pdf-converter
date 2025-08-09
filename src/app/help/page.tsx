@@ -104,10 +104,10 @@ export default function Page() {
               Run the application, you can see the above screen.
             </p>
             <p className="mt-2">
-              Clicking the “Add Files” button will open the standard file browse
-              and select window. From that window you can navigate to the folder
-              and find the files you want to add to the list to be converted
-              from.
+              Clicking the &quot;Add Files&quot; button will open the standard
+              file browse and select window. From that window you can navigate
+              to the folder and find the files you want to add to the list to be
+              converted from.
             </p>
             <p className="mt-2">
               Alternatively, If you are using Windows Explorer to locate files,
@@ -117,15 +117,15 @@ export default function Page() {
 
             <p className="mt-2">
               This software application even allows you to select all files in a
-              particular directory/folder by clicking the “Add Folder” button.
-              It also supports sub-folders.
+              particular directory/folder by clicking the &quot;Add Folder&quot;
+              button. It also supports sub-folders.
             </p>
             <p className="mt-2">
-              By using “Move Up” and “Move Down” buttons you can rearrange the
-              position of files in the list. If you want to remove any selected
-              files from the list, you can click “Remove” button and if you want
-              to clear all the files from the list, you can use “Remove All”
-              button.
+              By using &quot;Move Up&quot; and &quot;Move Down&quot; buttons you
+              can rearrange the position of files in the list. If you want to
+              remove any selected files from the list, you can click
+              &quot;Remove&quot; button and if you want to clear all the files
+              from the list, you can use &quot;Remove All&quot; button.
             </p>
             <div className="my-10 flex justify-center">
               <ProductImage
@@ -139,19 +139,19 @@ export default function Page() {
             <h2 className="mt-10 font-semibold">Modify Settings:</h2>
             <p className="mt-2">
               Output Folder: Browse output folder that you want or keep it
-              default. You can also select “Save to same folder as original
-              file”.
+              default. You can also select &quot;Save to same folder as original
+              file&quot;.
             </p>
             <p className="mt-2">
               If you want to view output files after conversion, select this
-              option “Open output folder after conversion”
+              option &quot;Open output folder after conversion&quot;
             </p>
             <p className="mt-2">
               Output Mode: If you want to convert TIFF to PDF as it is, select
-              "Convert each TIFF to PDF", if you want to merge all selected TIFF
-              into single PDF file, then select “Combine all TIFF to PDF” or if
-              you want to split TIFF file into single page PDF, then select
-              "Split each TIFF to PDF" option.
+              &quot;Convert each TIFF to PDF&quot;, if you want to merge all
+              selected TIFF into single PDF file, then select &quot;Combine all
+              TIFF to PDF&quot; or if you want to split TIFF file into single
+              page PDF, then select &quot;Split each TIFF to PDF&quot; option.
             </p>
             <p className="mt-2">
               Compression: You can select TIFF compression of your choice from
@@ -169,8 +169,8 @@ export default function Page() {
             <h2 className="mt-10 font-semibold">Start Conversion:</h2>
             <p className="mt-2">
               After adding all your files and selecting your settings, you can
-              now click “Convert” button to start conversion process. You will
-              get your output in your selected location.
+              now click &quot;Convert&quot; button to start conversion process.
+              You will get your output in your selected location.
             </p>
           </div>
         </div>

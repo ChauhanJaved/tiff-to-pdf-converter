@@ -1,6 +1,5 @@
 import {
   Categories,
-  headerCompanyName,
   portfolioItem,
   ProductIDs,
   productImages,
