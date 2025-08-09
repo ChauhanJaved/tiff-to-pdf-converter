@@ -96,10 +96,10 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="mt-5 flex flex-col">
+          <div className="flex flex-col">
             <h2 className="mt-10 font-semibold">Adding files:</h2>
             <p className="mt-2">
-              Download Free PNG to PDF Converter and install it on your
+              Download Free TIFF to PDF Converter and install it on your
               computer. A full version of the program is available for download.
               Run the application, you can see the above screen.
             </p>
@@ -147,12 +147,16 @@ export default function Page() {
               option “Open output folder after conversion”
             </p>
             <p className="mt-2">
-              Output Mode: If you want to convert PNG to PDF as it is, select
-              &#34;Convert each PNG to PDF&#34;, if you want to merge all
-              selected PNG into single PDF file, then select “Combine all PNG to
-              PDF”.
+              Output Mode: If you want to convert TIFF to PDF as it is, select
+              "Convert each TIFF to PDF", if you want to merge all selected TIFF
+              into single PDF file, then select “Combine all TIFF to PDF” or if
+              you want to split TIFF file into single page PDF, then select
+              "Split each TIFF to PDF" option.
             </p>
-
+            <p className="mt-2">
+              Compression: You can select TIFF compression of your choice from
+              ZIP, LZW, FAX, Group4 or RLE.
+            </p>
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.TIFFtoPDFConverterSettings.imgName}
