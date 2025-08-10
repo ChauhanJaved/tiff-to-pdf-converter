@@ -1,4 +1,4 @@
-// src/app/how-to-convert-png-to-pdf/page.tsx
+// src/app/how-to-split-tiff-into-pdf/page.tsx
 
 // External imports
 import { Download, Slash } from "lucide-react";
@@ -46,7 +46,7 @@ export default function Page() {
               <Slash />
             </BreadcrumbSeparator>
             <BreadcrumbItem>
-              <BreadcrumbPage>Batch Convert PNG to PDF</BreadcrumbPage>
+              <BreadcrumbPage>Split TIFF into PDF</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -54,7 +54,7 @@ export default function Page() {
       <section className="container mx-auto px-5 lg:px-10 xl:max-w-screen-xl">
         <SectionHeader
           className="mt-10 lg:mt-16"
-          caption="Batch Convert PNG to PDF"
+          caption="Split TIFF into PDF"
           element="h1"
           desc="Windows 11/10/8/7 | Fully Functional - No Limits - 15 Days Free | Safe & Secure Download"
         />
@@ -96,10 +96,29 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="mt-5 flex flex-col">
+          <div className="flex flex-col">
             <h2 className="mt-10 font-semibold">
-              How to convert PNG to PDF in batch?
+              <strong>How do I split TIFF into PDF document?</strong>
             </h2>
+            <p className="mt-2">
+              TIFF is best for any bitmap images that you intend to edit. TIFF
+              images do not compress to make for smaller files, because they are
+              meant to preserve quality. They offer options to use tags, layers,
+              and transparency and are compatible with image manipulation tools.
+              If you are looking for a small file or a web friendly format, TIFF
+              is not recommended. Using our tool, it’s possible to split
+              multipage TIFF and create single page PDF document.
+            </p>
+            <p className="mt-2">
+              Download TIFF to PDF Converter and install it on your computer. A
+              full version of the program is available free for 15 days. Run the
+              application, you can see the above screen.
+            </p>
+            <p className="mt-2">
+              Click on &quot;Add Files&quot; or &quot;Add Folders&quot; to add
+              TIFF files to the conversion list. You can also drag and drop
+              files and folders from Windows Explorer.
+            </p>
             <p className="mt-2">
               PNG format is a lossless compression file format, which makes it a
               common choice for use on the Web. PNG is a good choice for storing
@@ -122,9 +141,9 @@ export default function Page() {
               Run the application, you can see the above screen.
             </p>
             <p className="mt-2">
-              Click on “Add Files” to add PNG files to the conversion list. You
-              can also drag and drop files and folders from the Windows
-              Explorer.
+              Click on &quot;Add Files&quot; to add PNG files to the conversion
+              list. You can also drag and drop files and folders from the
+              Windows Explorer.
             </p>
             <div className="my-10 flex justify-center">
               <ProductImage
@@ -136,13 +155,9 @@ export default function Page() {
               />
             </div>
             <p className="mt-10">
-              After selecting PNG files for conversion you can directly click on
-              &#34;Convert&#34; button to start conversion. Before that you can
-              change the options like output folder and output mode. In the
-              Output Mode, you can select &#34;Convert each PNG to PDF&#34;,
-              &#34;Combine all PNG to PDF&#34;.
+              After adding TIFF images for conversion, change the settings
+              &quot;Output Mode&quot; as &quot;Split each TIFF to PDF&quot;.
             </p>
-
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.TIFFtoPDFConverterSettings.imgName}
@@ -153,9 +168,9 @@ export default function Page() {
               />
             </div>
             <p className="mt-10">
-              Now to convert the PNG to PDF, click on &#34;Convert&#34; button
-              to begin the batch conversion process. All of the generated PDF
-              will appear in a separate output folder.
+              Now click &quot;Convert&quot; button to begin the batch conversion
+              process. All your output PDF documents will appear in the output
+              folder you have selected.
             </p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-// src/app/how-to-merge-png-to-pdf/page.tsx
+// src/app/how-to-merge-tiff-to-pdf/page.tsx
 
 // External imports
 import { Download, Slash } from "lucide-react";
@@ -46,7 +46,7 @@ export default function Page() {
               <Slash />
             </BreadcrumbSeparator>
             <BreadcrumbItem>
-              <BreadcrumbPage>Combine PNG into PDF</BreadcrumbPage>
+              <BreadcrumbPage>Merge TIFF into PDF</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -54,9 +54,9 @@ export default function Page() {
       <section className="container mx-auto px-5 lg:px-10 xl:max-w-screen-xl">
         <SectionHeader
           className="mt-10 lg:mt-16"
-          caption="Combine PNG into PDF"
+          caption="Merge TIFF into PDF"
           element="h1"
-          desc="Windows 11/10/8/7 | Fully Functional - No Limits - 15 Days Free | Safe & Secure Download"
+          desc="Windows 11/10/8/7 | Fully Functional 15 Days Free Trial | Secure Download"
         />
         <div className="flex flex-col items-center">
           <div className="mt-10 flex w-full flex-col items-center justify-center gap-3 rounded-md border p-10">
@@ -96,44 +96,40 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="mt-5 flex flex-col">
+          <div className="flex flex-col">
             <h2 className="mt-10 font-semibold">
-              How to Combine PNG images to PDF in Windows 11/10/8/7?
+              How to combine multiple TIFF images into single PDF in Windows?
             </h2>
             <p className="mt-2">
-              PNG is a lossless compressed format, which makes it good for both
-              photographs and text files. A PNG will normally be larger than a
-              JPEG, and sometimes smaller than a TIFF. It was originally
-              developed to replace the GIF, but the formats are drastically
-              different, and both have a place in today’s computer world. PNG
-              supports more colors than GIF images as well as better
-              transparency. It is a useful format for line graphics and
-              wordmarks as the lines and text will show up crisply and neatly in
-              the output image. PNG’s benefits are compress images without
-              losing quality and suitable for text documents. Disadvantages are
-              larger file size than JPEGs and not suitable for professional
-              quality print graphics. Sometimes you want to combine PNG images
-              into PDF (Portable Document Format) format suitable for sharing
-              and can be viewed in a professional software program or a free
-              acrobat reader.
+              Tagged Image File Format (TIFF) have been around as an image file
+              format for a very long time for a few solid reasons, they are an
+              industry standard in many fields such as publishing and their
+              support for multi-page files is incredibly handy, they are a great
+              format for working with high-resolution graphics. TIFF are often
+              not the best file format when it comes to sharing work with
+              colleagues or passing files on to clients however. You simply
+              cannot be sure the recipient will be able to open the file.
             </p>
             <p className="mt-2">
-              If you have thousands of PNG images and they need to be merge into
-              Adobe PDF documents, choose our converter program that
-              accommodates batch process — that’ll save both your time and your
-              clicking finger.
+              Portable Document Format (PDF) on the other hand, are pretty much
+              universal these days. That is where our TIFF to PDF Converter
+              software comes into its own. It is a powerful, full-featured tool
+              that will let you combine several TIFF images into one multi-page
+              PDF with ease. Rather than having to open several applications and
+              export as PDF by hand, you will be able to get the job done
+              quickly from one place and get back to your work.
             </p>
             <p className="mt-2">
-              Download Free PNG to PDF Converter and install it on your
-              computer. A full version of the program is available for download.
-              Run the desktop application, you can see the above screen.
+              Download TIFF to PDF Converter and install it on your computer. A
+              full version of the program is available for download. Run the
+              application, you can see the above screen.
             </p>
             <p className="mt-2">
-              Click on “Add Files” to add PNG files into the conversion list.
-              You can also drag and drop files and folders from the Windows
-              Explorer.
+              Drag and drop TIFF image(s) (or add them by clicking the &quot;Add
+              file&quot; or &quot;Add Folder&quot; button) to convert it from
+              TIFF to PDF format. Reorder the sequence of images as you need
+              them to appear in the final PDF document.
             </p>
-
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.TIFFtoPDFConverterFilesSelected.imgName}
@@ -144,8 +140,12 @@ export default function Page() {
               />
             </div>
             <p className="mt-10">
-              After selecting PNG files for merging, select Output Mode
-              &#34;Combine all PNG to PDF&#34; from settings screen.
+              After adding TIFF files for merger you can directly click on
+              &quot;Convert&quot; button to start conversion. Before that you
+              can change the options like output folder and compression. You can
+              merge as many TIFF files as you need into a single PDF file. For
+              that you have to select output mode as &quot;Combine all TIFF to
+              PDF&quot;.
             </p>
             <div className="my-10 flex justify-center">
               <ProductImage
@@ -156,8 +156,8 @@ export default function Page() {
                 galleryID="TIFFtoPDFConverterSettings"
               />
             </div>
-            <p className="mt-10">
-              Now to combine PNG to PDF, click on &#34;Convert&#34; button to
+            <p className="mt-2">
+              Now to combine TIFF to PDF, click on &quot;Convert&quot; button to
               begin the batch conversion process. All of the generated PDF will
               appear in a separate output folder.
             </p>

@@ -93,7 +93,7 @@ export default function Hero() {
               </Button>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link
-                  href={"/how-to-merge-png-to-pdf"}
+                  href={"/how-to-merge-tiff-to-pdf"}
                   onClick={() => setActiveSection("")}
                 >
                   How to combine multiple TIFF to PDF in Windows?
