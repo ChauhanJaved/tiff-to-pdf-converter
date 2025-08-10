@@ -119,32 +119,6 @@ export default function Page() {
               TIFF files to the conversion list. You can also drag and drop
               files and folders from Windows Explorer.
             </p>
-            <p className="mt-2">
-              PNG format is a lossless compression file format, which makes it a
-              common choice for use on the Web. PNG is a good choice for storing
-              line drawings, text, and iconic graphics at a small file size.
-              However there are times when you might want to access the image in
-              a more portable and standard format like Adobe&#39;s Portable
-              Document Format (PDF).
-            </p>
-            <p className="mt-2">
-              If you have thousands of PNG images and they need to be converted
-              into Adobe PDF documents, choose our converter program that
-              accommodates batch conversions — that’ll save both your time and
-              your clicking finger. Conversion takes a few seconds and can be
-              performed on a single image or a huge batch of image files
-              containing hundreds if not thousands of PNG images.
-            </p>
-            <p className="mt-2">
-              Download Free PNG to PDF Converter and install it on your
-              computer. A full version of the program is available for download.
-              Run the application, you can see the above screen.
-            </p>
-            <p className="mt-2">
-              Click on &quot;Add Files&quot; to add PNG files to the conversion
-              list. You can also drag and drop files and folders from the
-              Windows Explorer.
-            </p>
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.TIFFtoPDFConverterFilesSelected.imgName}
