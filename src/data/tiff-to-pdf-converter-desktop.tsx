@@ -146,5 +146,17 @@ export const TIFFtoPDFConverterDesktop: portfolioItem = {
       locale: "en_US",
       type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `Free ${productTitles.TIFFtoPDFConverterDesktop} for Windows | Fast & Secure TIFF to PDF Tool`,
+      description:
+        "Convert TIFF files to PDF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, advanced compression settings, and customizable options to ensure top-quality PDF output.",
+      images: [
+        cloudinaryLoader({
+          src: productImages.TIFFtoPDFConverterDesktop.imgName,
+          width: productImages.TIFFtoPDFConverterDesktop.width,
+        }),
+      ],
+    },
   },
 };

@@ -123,5 +123,17 @@ export const TIFFtoPDFConverterWeb: portfolioItem = {
       locale: "en_US",
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `Free ${productTitles.TIFFtoPDFConverterWeb} Online | Secure TIFF to PDF Tool`,
+      description:
+        "Convert TIFF images to PDF securely with our free web app. Process files locally in your browser with no uploads, drag-and-drop support, and full PDF layout control.",
+      images: [
+        cloudinaryLoader({
+          src: productImages.TIFFtoPDFConverterWeb.imgName,
+          width: productImages.TIFFtoPDFConverterWeb.width,
+        }),
+      ],
+    },
   },
 };
