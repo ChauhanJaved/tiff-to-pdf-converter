@@ -118,9 +118,10 @@ export type ProductSubTitles =
   (typeof productSubTitles)[keyof typeof productSubTitles];
 
 export const productWebsites = {
-  TIFFtoPDFConverterWeb: "https://www.pdf-tiff-tools.com/tiff-to-pdf-converter",
+  TIFFtoPDFConverterWeb:
+    "https://www.pdf-tiff-tools.com/tiff-to-pdf-converter/",
   TIFFtoPDFConverterDesktop:
-    "https://www.pdf-tiff-tools.com/tiff-to-pdf-converter-desktop",
+    "https://www.pdf-tiff-tools.com/tiff-to-pdf-converter-desktop/",
 } as const;
 export type ProductWebsite =
   (typeof productWebsites)[keyof typeof productWebsites];

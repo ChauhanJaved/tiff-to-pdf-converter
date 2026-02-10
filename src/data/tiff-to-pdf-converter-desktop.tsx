@@ -1,3 +1,5 @@
+// src/data/tiff-to-pdf-converter-desktop.tsx
+
 import {
   Categories,
   portfolioItem,
@@ -9,154 +11,154 @@ import {
   productDownloadLinks,
 } from "@/data/website-data";
 import cloudinaryLoader from "@/lib/cloudinary-loader";
+
+/* ---------------------------------------------
+ * Constants
+ * -------------------------------------------- */
+
+const PRODUCT_ID = ProductIDs.TIFFtoPDFConverterDesktop;
+const TITLE = productTitles.TIFFtoPDFConverterDesktop;
+const WEBSITE = productWebsites.TIFFtoPDFConverterDesktop;
+const IMAGE = productImages.TIFFtoPDFConverterDesktop;
+
+const SEO_DESCRIPTION =
+  "Free TIFF to PDF converter for Windows desktop - Convert single or batch TIFF files to PDF offline with advanced compression, drag-and-drop interface, and zero dependencies. No internet required, complete privacy guaranteed.";
+
+const OG_IMAGE = {
+  url: cloudinaryLoader({
+    src: IMAGE.imgName,
+    width: IMAGE.width,
+  }),
+  width: IMAGE.width,
+  height: IMAGE.height,
+  alt: `Free ${TITLE} for Windows`,
+};
+
+/* ---------------------------------------------
+ * Description Sections
+ * -------------------------------------------- */
+
+const descriptionSections = [
+  {
+    title: "The Ultimate TIFF to PDF Converter for Windows",
+    content:
+      "Convert TIFF files to PDFs securely and efficiently using our powerful Windows desktop application. All processing happens locally on your system, ensuring complete privacy and zero dependency on internet connectivity.",
+  },
+  {
+    title: "High-Speed and Reliable Conversions",
+    content:
+      "Engineered for performance, the converter delivers fast and consistent results whether you're working at home, in the office, or offline. Convert TIFF images to PDF in seconds without interruptions.",
+  },
+  {
+    title: "Effortless Batch Conversion",
+    content:
+      "Convert hundreds or thousands of TIFF files in one go. The batch processing engine handles large workloads efficiently, eliminating the need to convert files individually.",
+  },
+  {
+    title: "Intuitive Drag-and-Drop Interface",
+    content:
+      "Simply drag and drop TIFF files or folders into the application and start converting instantly. The clean, beginner-friendly interface keeps the workflow simple and distraction-free.",
+  },
+  {
+    title: "Flexible Conversion Modes",
+    content:
+      "Convert each TIFF into a separate PDF, merge multiple TIFF files into a single multi-page PDF, or split TIFF images into individual PDF pages. Choose the workflow that fits your task.",
+  },
+  {
+    title: "Advanced Compression Settings",
+    content:
+      "Fine-tune PDF output using ZIP, LZW, FAX Group 4, RLE, or no compression at all. Balance file size and image quality based on your requirements.",
+  },
+  {
+    title: "Built for High-Volume Workloads",
+    content:
+      "Designed for professionals and power users, the converter handles massive TIFF collections with ease. Add files, configure settings, and convert thousands of images in just a few clicks.",
+  },
+  {
+    title: "Simple for Beginners, Powerful for Experts",
+    content:
+      "While easy to use out of the box, the software also offers advanced configuration options for users who need precise control over output quality and structure.",
+  },
+  {
+    title: "Why Convert TIFF to PDF?",
+    content:
+      "TIFF files offer excellent image quality but are often inconvenient for sharing and printing. PDFs ensure universal compatibility, consistent formatting, and easy archiving across devices and platforms.",
+  },
+  {
+    title: "Conclusion",
+    content:
+      "Our TIFF to PDF Converter for Windows combines speed, security, and flexibility in one powerful desktop tool. Whether converting a few files or processing thousands, it delivers professional results every time.",
+  },
+];
+
+/* ---------------------------------------------
+ * Portfolio Item
+ * -------------------------------------------- */
+
 export const TIFFtoPDFConverterDesktop: portfolioItem = {
-  id: ProductIDs.TIFFtoPDFConverterDesktop,
-  title: productTitles.TIFFtoPDFConverterDesktop,
+  id: PRODUCT_ID,
+  title: TITLE,
   subtitle: productSubTitles.TIFFtoPDFConverterDesktop,
-  src: productImages.TIFFtoPDFConverterDesktop.imgName,
-  width: productImages.TIFFtoPDFConverterDesktop.width,
-  height: productImages.TIFFtoPDFConverterDesktop.height,
+
+  src: IMAGE.imgName,
+  width: IMAGE.width,
+  height: IMAGE.height,
+
   categories: [Categories.All, Categories.DesktopApp, Categories.Converter],
-  pageLink: `/${ProductIDs.TIFFtoPDFConverterDesktop}`,
-  productWebsite: productWebsites.TIFFtoPDFConverterDesktop,
+
+  pageLink: `/${PRODUCT_ID}`,
+  productWebsite: WEBSITE,
   downloadLink: productDownloadLinks.TIFFtoPDFConverter,
+
   features: [
     "Convert Locally with Complete Offline Security",
-    "Experience Ultra-Fast Conversion",
+    "Ultra-Fast TIFF to PDF Conversion",
     "Effortless Batch Processing",
-    "Intuitive Drag-and-Drop Functionality",
-    "Versatile Conversion Options",
-    "Easily Reorder Images as Needed",
+    "Intuitive Drag-and-Drop Interface",
+    "Multiple Conversion Modes",
+    "Advanced Compression Options",
+    "Reorder Images Before Conversion",
   ],
+
   description: (
-    <div className="flex flex-col">
-      <strong className="mt-10">
-        Introducing the Ultimate TIFF to PDF Converter for Windows
-      </strong>
-      <p className="mt-2">
-        Convert your TIFF files to PDFs securely and efficiently with our
-        powerful desktop software. Designed for Windows users, our TIFF to PDF
-        converter operates entirely offline, ensuring that your data remains
-        private and secure. Perform conversions on your local system,
-        eliminating the need for an internet connection and reducing the risk of
-        data breaches or unauthorized access.
-      </p>
-      <strong className="mt-10">High-Speed and Reliable Conversions</strong>
-      <p className="mt-2">
-        Experience fast and dependable TIFF to PDF conversions with our
-        software. Whether you&#39;re at home, in the office, or on the move,
-        this tool is engineered to deliver quick results without the need for an
-        internet connection. Convert your TIFF files to PDF format in seconds,
-        ensuring your work remains uninterrupted.
-      </p>
-      <strong className="mt-10">Effortless Batch Conversion</strong>
-      <p className="mt-2">
-        Save time by converting multiple TIFF images to PDFs in a single
-        operation. Our batch processing feature handles large volumes of files
-        quickly and efficiently, eliminating the hassle of converting images one
-        by one. Whether you&#39;re working with a few files or thousands, our
-        software simplifies bulk conversion.
-      </p>
-      <strong className="mt-10">Intuitive Drag-and-Drop Interface</strong>
-      <p className="mt-2">
-        Enjoy an easy-to-use interface that makes file conversion simple, even
-        for beginners. Drag and drop your TIFF files into the software, and
-        you&#39;re ready to start converting. This intuitive feature streamlines
-        the process, letting you focus on your work.
-      </p>
-      <strong className="mt-10">Flexible Conversion Modes</strong>
-      <p className="mt-2">
-        Customize your PDF output with versatile conversion options. Choose to
-        convert each TIFF file into a separate PDF, combine all TIFF images into
-        a single multi-page PDF document, or split each TIFF image into
-        individual single-page PDFs. Tailor the process to meet your specific
-        needs.
-      </p>
-      <strong className="mt-10">Advanced Compression Settings</strong>
-      <p className="mt-2">
-        Optimize your PDFs with advanced compression options. Select from ZIP,
-        LZW, FAX Group4, RLE, or choose no compression to maintain the highest
-        image quality. These settings allow you to balance file size and image
-        quality according to your preferences.
-      </p>
-      <strong className="mt-10">Designed for High-Volume Conversions</strong>
-      <p className="mt-2">
-        Need to convert thousands of TIFF files quickly? Our TIFF to PDF
-        Converter is one of the fastest and most versatile solutions available.
-        Ideal for professionals and casual users alike, this software allows you
-        to batch process large collections of TIFF files with just a few clicks.
-        Launch the converter, drag and drop your files or folders, customize
-        your settings, and hit &#34;Convert&#34;—your images will be instantly
-        transformed into high-quality PDF documents.
-      </p>
-      <strong className="mt-10">User-Friendly with Advanced Features</strong>
-      <p className="mt-2">
-        Our TIFF to PDF Converter is not only fast and easy to use but also
-        offers advanced options for those needing more control over the
-        conversion process. Adjust compression settings, choose between various
-        conversion modes, and ensure the final PDF meets your exact
-        requirements.
-      </p>
-      <strong className="mt-10">Why Convert TIFF to PDF?</strong>
-      <p className="mt-2">
-        TIFF (Tagged Image File Format) is a popular format for high-quality
-        images, but it can be cumbersome for sharing and printing. Converting
-        TIFF files to PDF (Portable Document Format) ensures compatibility
-        across devices and preserves the quality of your images. PDFs are ideal
-        for document sharing, printing, and archiving, providing a versatile
-        solution for your TIFF files.
-      </p>
-      <strong className="mt-10">Conclusion</strong>
-      <p className="mt-2">
-        Our TIFF to PDF Converter for Windows offers the perfect solution for
-        converting images to PDF quickly, securely, and with ease. Whether
-        handling a few files or thousands, this software delivers the speed,
-        flexibility, and user-friendly features you need. Don&#39;t settle for
-        less—download the best TIFF to PDF Converter for Windows today and
-        experience effortless file conversion at its finest.
-      </p>
-    </div>
+    <section className="mt-10 flex flex-col gap-10">
+      {descriptionSections.map(({ title, content }) => (
+        <div key={title}>
+          <h2 className="text-lg font-semibold">{title}</h2>
+          <p className="text-muted-foreground mt-2">{content}</p>
+        </div>
+      ))}
+    </section>
   ),
+
   metaData: {
-    title: `Free ${productTitles.TIFFtoPDFConverterDesktop} for Windows | Fast & Secure TIFF to PDF Tool`,
+    title: `${TITLE} for Windows | Free Desktop App | Download Now`,
+    description: SEO_DESCRIPTION,
     keywords:
-      "TIFF to PDF Converter, Convert TIFF to PDF, Batch TIFF to PDF, Windows PDF Converter, Image to PDF Tool, TIFF Compression",
-    description:
-      "Convert TIFF files to PDF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, advanced compression settings, and customizable options to ensure top-quality PDF output.",
+      "TIFF to PDF converter Windows, free TIFF to PDF software, batch TIFF to PDF, desktop PDF converter, offline TIFF converter, convert TIFF to PDF free download, image to PDF Windows, TIFF compression utility, bulk TIFF converter, Windows desktop application, TIFF to PDF batch processing, secure PDF conversion",
+
     alternates: {
-      canonical: productWebsites.TIFFtoPDFConverterDesktop,
+      canonical: WEBSITE,
     },
+
     openGraph: {
-      title: `Free ${productTitles.TIFFtoPDFConverterDesktop} for Windows |  Fast & Secure TIFF to PDF Tool`,
+      title: `${TITLE} - Free Windows Desktop App for Batch TIFF to PDF Conversion`,
       description:
-        "Convert TIFF files to PDF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, advanced compression settings, and customizable options to ensure top-quality PDF output.",
-      url: `https://www.frameworkteam.com/${ProductIDs.TIFFtoPDFConverterDesktop}.html`,
-      siteName: `${productTitles.TIFFtoPDFConverterDesktop} for Windows`,
-      images: [
-        {
-          url: cloudinaryLoader({
-            src: productImages.TIFFtoPDFConverterDesktop.imgName,
-            width: productImages.TIFFtoPDFConverterDesktop.width,
-          }),
-          width: productImages.TIFFtoPDFConverterDesktop.width,
-          height: productImages.TIFFtoPDFConverterDesktop.height,
-          alt: `Free ${productTitles.TIFFtoPDFConverterDesktop} for Windows`,
-        },
-      ],
+        "Convert TIFF files to PDF offline with our easy-to-use Windows desktop application. Batch processing, advanced compression settings, and zero privacy concerns. Download free today.",
+      url: WEBSITE,
+      siteName: `${TITLE} for Windows Desktop`,
+      images: [OG_IMAGE],
       locale: "en_US",
       type: "article",
     },
+
     twitter: {
       card: "summary_large_image",
-      title: `Free ${productTitles.TIFFtoPDFConverterDesktop} for Windows | Fast & Secure TIFF to PDF Tool`,
+      title: `${TITLE} - Free Windows Desktop TIFF to PDF Converter`,
       description:
-        "Convert TIFF files to PDF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, advanced compression settings, and customizable options to ensure top-quality PDF output.",
-      images: [
-        cloudinaryLoader({
-          src: productImages.TIFFtoPDFConverterDesktop.imgName,
-          width: productImages.TIFFtoPDFConverterDesktop.width,
-        }),
-      ],
+        "Convert TIFF files to PDF offline on Windows. Fast batch processing, advanced compression, drag-and-drop interface. Download free today.",
+      images: [OG_IMAGE.url],
+      creator: "@YourHandle",
     },
   },
 };
